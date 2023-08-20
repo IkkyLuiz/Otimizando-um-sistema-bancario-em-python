@@ -20,7 +20,7 @@ def depositar(saldo, valor, extrato, /):
         extrato += f"Depósito:\tR$ {valor:.2f}\n"
         print("\n=== Depósito realizado com sucesso! ===")
     else:
-        print("\n@@@ Operação falhou! O valor informado é inválido. @@@")
+        print("\n@@@ Falha na operação! O valor informado não encontrado. @@@")
 
     return saldo, extrato
 
